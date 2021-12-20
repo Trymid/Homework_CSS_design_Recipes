@@ -1,0 +1,117 @@
+* {
+  font-family:'GillSansC', 'Gill Sans Nova', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+h1 {
+  text-align: center;
+  text-decoration: double underline;
+}
+
+.articleDecoration {
+  position: relative;
+  margin: 7rem 23.7%;
+  padding: 1.5rem 3rem 2rem 3rem;
+  background-color: rgba(45, 174, 216, 0.235);
+  border-top: 4px solid rgba(15, 50, 62, 0.406);
+  border-right: 4px solid rgba(15, 50, 62, 0.406);
+  border-bottom: 4px dashed rgba(15, 50, 62, 0.406);
+  border-left: 4px dashed rgba(15, 50, 62, 0.406);
+}
+
+img {
+  position: absolute;
+  width: 15.4rem;
+  height: 11rem;
+  top: -5.9rem;
+  right: -8.2rem;
+  border: 4px solid rgba(3, 41, 53, 0.755);
+  z-index: 1;
+}
+
+h2, .underline {
+  text-decoration: underline;
+}
+
+h2, h3 {
+  color: rgba(3, 41, 53, 0.755);
+}
+
+.articleIntrodution {
+  margin-top: 2rem;
+}
+
+.articleIntrodution::first-letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(3, 41, 53, 0.755);
+}
+
+#charlotte li:nth-child(even) {
+  text-decoration: dotted underline;
+  color: rgba(3, 41, 53, 0.755);
+}
+
+.articleConclusion {
+  border-top: 1px solid black;
+  margin: 6rem 0.5rem 0rem 0.5rem; 
+  text-align: center;
+  font-style: italic;
+}
+
+
+
+#tiramisu img {
+  border-color: rgba(58, 58, 58, 0.762);
+}
+
+#tiramisu h2, #tiramisu h3  {
+  color: rgba(58, 58, 58, 0.762);
+}
+
+#tiramisu .articleIntrodution::first-letter {
+  color: rgba(58, 58, 58, 0.762);
+}
+
+#tiramisu li:nth-child(odd) {
+  text-decoration: dashed underline;
+  color: rgba(58, 58, 58, 0.762);
+}
+
+#tiramisu.articleDecoration {
+  background-color: rgba(169, 169, 169, 0.18);
+  border-color: rgba(58, 58, 58, 0.762);
+}
+
+#tiramisu .articleConclusion { 
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+
+
+#gingerСookies img {
+  border-color: rgba(34, 74, 34, 0.831);
+}
+
+#gingerСookies h2, #gingerСookies h3 {
+  color: rgba(34, 74, 34, 0.831);
+} 
+
+#gingerСookies .articleIntrodution::first-letter {
+  color: rgba(34, 74, 34, 0.831);
+}
+
+#gingerСookies li:nth-child(3n) {
+  text-decoration: wavy underline;
+  color: rgba(34, 74, 34, 0.831);
+}
+
+#gingerСookies.articleDecoration {
+  background-color: rgba(143, 188, 143, 0.618);
+  border-color: rgba(34, 74, 34, 0.831);
+}
+
+#gingerСookies .articleConclusion {
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
